@@ -1,13 +1,17 @@
 import React from "react";
 
+/* 
+  AVOID WRITTING NON-FUNCTIONAL CODE
+*/
+
 const Cards = () => {
-  const creatList = (CardData) => {
+  const createList = (CardData) => {
     return CardData.map((cards, key) => {
-        return <div id={key}><h1>{data.heading}</h1><h3>{data.text}</h3></div>
+        return <div id={key}><h1>{cards.heading}</h1><h3>{cards.text}</h3></div>
     })
   }
   return(
-    <div>{creatList()}</div>
+    <div>{createList()}</div>
   );
 };
 

@@ -1,4 +1,5 @@
 import React from "react";
+import Heading from "./Heading";
 import PropTypes from "prop-types";
 
 const SectionHeader = (props) => {

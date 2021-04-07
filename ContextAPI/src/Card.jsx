@@ -1,6 +1,10 @@
 import React from "react";
 import UserName from "./Home";
 
+/* 
+  CONSUMER USING THE GLOBAL DATA
+*/
+
 const Card = () => {
   return (
     <UserName.Consumer>

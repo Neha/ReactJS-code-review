@@ -1,19 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 
-const Button = (props) => {
-  const { text } = props;
-  
-  const newText = 'Booked';
+/* 
+  CODE IS NOT SEMANTIC
+*/
 
-  const [ state, setState ] = useState({text});
-
-  const changeText = () => {
-    setState(newText);
-  }
-  
+const Header = (props) => {
+  const { heading, subHeading} = props;
   return(
-    <button onClick={changeText}>{ text }</button>
+    <section class="header">
+       <div class="h1">{heading}</div>
+       <div class="h2">{subHeading}</div>
+    </section>
+   
   );
 };
 
-export default Button;
+export default Header;

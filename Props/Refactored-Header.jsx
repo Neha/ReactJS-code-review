@@ -1,5 +1,9 @@
 import React from "react";
 
+/* 
+  USE PROPS NOT JUST FOR CONTENT BUT FOR EVENTS
+*/
+
 const SectionHeader = (props) => {
     const { heading, subheading } = props;
   return(
