@@ -3,6 +3,11 @@ import Heading from './components/Heading';
 import BodyText from './components/BodyText';
 import Card from './components/Card';
 
+/* 
+  CORRECT WAY OF CREATING COMPONENTS.
+  BREAK THE PAGE INTO COMPONENTS (REUSABLE)
+*/
+
 const CardData = [
   {
     heading: 'Services',

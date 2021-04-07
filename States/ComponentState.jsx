@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 
-const Header = () => {
+const Button = (props) => {
+  const { text } = props;
+  
+  const newText = 'Booked';
+
+  const [ newText, setState ] = useState({text});
+
+  const changeText = () => {
+    setState(newText);
+  }
+  
   return(
-    <div class="header">
-       <div className="heading">Heading</div>
-       <div className="subheading">Subheading...</div>
-    </div>
-   
+    <button onClick={changeText}>{ text }</button>
   );
 };
 
-export default Header;
+export default Button;

@@ -1,5 +1,10 @@
 import React from "react";
 
+/* 
+  WRONG WAY OF CREATING COMPONENTS.
+  AVOID PUTTING ALL CODE IN ONE COMPONENT
+*/
+
 const Home = () => {
   return(
     <section id="home">

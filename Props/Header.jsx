@@ -1,5 +1,10 @@
 import React from "react";
 
+/* 
+  AVOID HARD-CODED CONTENT.
+  MAKE THE COMPONENTS REUSABLE.
+*/
+
 const SectionHeader = () => {
   return(
     <section>
