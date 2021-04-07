@@ -1,6 +1,6 @@
 ## :fire: Welcome to the ReactJS code Guidelines
 
-These are the code samples for the blog - "What to review in ReactJS Code?".
+These are the code samples for the blog - "What to review in ReactJS Code?" (Not published yet)
 
 ### :golf: Summary:
 
@@ -20,18 +20,18 @@ These are the code samples for the blog - "What to review in ReactJS Code?".
 
 ### Code Status:
 
-| | Guidline  | Code Samples |
+| | Topic  | Code Samples Status |
 | ------- | ------------- | ------------- |
-| 1. | Components  | Done  |
-| 2. | props  | Done  |
-| 3. | State | Done  |
-| 4. | Consistency in styling method  | Done  |
+| 1. | [Components](https://github.com/Neha/ReactJS-code-review/tree/main/Components)  | Ready  |
+| 2. | [props](https://github.com/Neha/ReactJS-code-review/tree/main/Props)  | Ready  |
+| 3. | [State](https://github.com/Neha/ReactJS-code-review/tree/main/States) | Ready  |
+| 4. | [Consistency in styling method](https://github.com/Neha/ReactJS-code-review/tree/main/Styling-methods)  | Ready  |
 | 6. | Consistency in File Extension  | -  |
-| 7. | Semantic HTML | Done  |
-| 8. | ContextAPI  | Done  |
-| 9. | Functional Code  | Done  |
-| 10. | Props Validation  | Done  |
-| 11. | Testing  | NA  |
+| 7. | [Semantic HTML](https://github.com/Neha/ReactJS-code-review/tree/main/Semantic-html) | Ready  |
+| 8. | [ContextAPI](https://github.com/Neha/ReactJS-code-review/tree/main/ContextAPI)  | Ready  |
+| 9. | [Functional Code](https://github.com/Neha/ReactJS-code-review/tree/main/Functional-code)  | Ready  |
+| 10. | [Props Validation](https://github.com/Neha/ReactJS-code-review/tree/main/Props-validation)  | Ready  |
+| 11. | Testing  | -  |
 | 12. | Avoid Over Engineering  | -  |
 | 13. | Hooks before lifecycle  | -  |
 
