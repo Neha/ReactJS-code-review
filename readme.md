@@ -1,6 +1,6 @@
 ## :fire: Welcome to the ReactJS code Guidelines
 
-These are the code samples for the blog - "What to review in ReactJS Code?" (Not published yet)
+These are the code samples for the blog - ["What to review in ReactJS Code?"](https://dev.to/hellonehha/what-to-review-in-reactjs-code-1co7) 
 
 ### :golf: Summary:
 
